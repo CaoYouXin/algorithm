@@ -7,15 +7,23 @@ using namespace std;
 int r, c;
 char maze[maxn][maxn];
 
-int main() {
+int main()
+{
   freopen("exercise005.in", "r", stdin);
+
   cin >> r;
-  while (r > 0) {
+  while (r > 0)
+  {
     cin >> c;
 
-    for (int i = 0; i < r; i++) {
-      for (int j = 0; j < c; j++) {
+    for (int i = 0; i < r; i++)
+    {
+      for (int j = 0; j < c; j++)
+      {
+        cin >> maze[i][j];
+        cout << maze[i][j] << " ";
       }
+      cout << endl;
     }
 
     cin >> r;
