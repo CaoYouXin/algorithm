@@ -26,7 +26,7 @@ public class StringConvTest {
         }
     }
 
-    private int atoi(String str) {
+    public int atoi(String str) {
         char[] chars = str.toCharArray();
         int idx = 0;
 
